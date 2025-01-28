@@ -1,11 +1,11 @@
 ## **Fonts**
-Sans-serif Fonts:
+Sans-serif Fonts: <br>
 
-Roboto:  headers and body text, versatile
-Montserrat: headers, strong look
-Open Sans: headers and body text, friendly and clean
-Lato: headers, softer compared to other
-Poppins: bold headers, modern aesthetic
+Roboto:  headers and body text, versatile <br>
+Montserrat: headers, strong look <br>
+Open Sans: headers and body text, friendly and clean <br>
+Lato: headers, softer compared to other <br>
+Poppins: bold headers, modern aesthetic <br>
 
 ## **The Team**
 TBD
