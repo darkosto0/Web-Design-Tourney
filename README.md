@@ -8,4 +8,4 @@ Lato: headers, softer compared to other <br>
 Poppins: bold headers, modern aesthetic <br>
 
 ## **The Team**
-TBD
+gonna make a contrib.rocks attachment image here when the repo goes public
