@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('/assets/images/background.jpg');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #26012f;
+    font-family: Montserrat;
+    font-size: 32px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 1000;
+}
+
+.header-a a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-b a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.header-a {
+    display: flex;       
+    align-items: center;   
+    gap: 10px;              
+}
+
+.bigText {
+    margin-top: 100px;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-family: Open Sans;
+    color: white;
+    text-align: center;
+    font-size: 37px;
+}
+
+.bigText p {
+    font-size: 20px;
+}
