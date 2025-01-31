@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('/assets/images/background.jpg');
+    background-image: url('/assets/images/background.png');
 
     background-repeat: no-repeat;
     background-position: center;
@@ -34,6 +34,11 @@ body {
     font-weight: bold;
 }
 
+.header-a img {
+    width: 50px;
+    height: auto;
+}
+
 .header-b a {
     text-decoration: none;
     color: white;
@@ -59,4 +64,34 @@ body {
 
 .bigText p {
     font-size: 20px;
+}
+
+.services {
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background: rgba(143, 143, 143, 0.5);
+    justify-content: center;
+    max-width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+.services img {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
+
+.services section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 5px;
 }
