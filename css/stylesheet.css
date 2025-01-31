@@ -22,7 +22,7 @@ body {
     background-color: #26012f;
     font-family: Montserrat;
     font-size: 32px;
-    padding: 10px;
+    padding: 10px 90px;
     justify-content: space-between;
     align-items: center; 
     z-index: 1000;
@@ -53,7 +53,7 @@ body {
 }
 
 .bigText {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 140px;
     margin-right: 140px;
     font-family: Open Sans;
@@ -70,14 +70,15 @@ body {
     font-family: Montserrat;
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    background: rgba(143, 143, 143, 0.5);
+    gap: 20px;
+    background: #341539c0;
     justify-content: center;
     max-width: fit-content;
     margin: auto;
     padding: 20px;
     border-radius: 15px;
-    margin-top: 60px;
+    margin-top: 30px;
+    color: white;
 }
 
 .services img {
@@ -94,4 +95,16 @@ body {
     border-style: solid;
     border-radius: 8px;
     padding: 5px;
+    border-color: rgb(85, 30, 107);
+    text-align: center;
+}
+
+.descriptions {
+    font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    margin: 40px 100px;
+    gap: 10px;
 }
