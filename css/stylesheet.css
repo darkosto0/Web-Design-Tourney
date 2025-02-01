@@ -6,7 +6,7 @@ body {
     padding: 0;
     height: 100vh;
     background-image: url("../assets/images/background.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     background-attachment: scroll;
     background-color: #8B0097;
