@@ -101,15 +101,15 @@ body {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-
+/* Description */
 .descriptions {
     font-family: Montserrat;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    gap: 30px;
     color: white;
     margin: 40px 100px;
-    gap: 10px;
 }
 
 /* stats box - javascript needed*/
