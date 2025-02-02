@@ -10,6 +10,7 @@ body {
     background-size: cover;
     background-attachment: scroll;
     background-color: #8B0097;
+    color: white;
 }
 
 /* main header */
@@ -27,12 +28,13 @@ body {
     justify-content: space-between;
     align-items: center; 
     z-index: 1000;
+    
 }
 
 .header-a a {
     text-decoration: none;
-    color: white;
     font-weight: bold;
+    color: white
 }
 
 .header-a img {
@@ -42,9 +44,9 @@ body {
 
 .header-b a {
     text-decoration: none;
-    color: white;
     font-weight: bold;
     margin-left: 20px;
+    color: white
 }
 
 .header-a {
@@ -58,7 +60,6 @@ body {
     margin-left: 140px;
     margin-right: 140px;
     font-family: Open Sans;
-    color: white;
     text-align: center;
     font-size: 37px;
 }
@@ -81,7 +82,6 @@ body {
     padding: 20px;
     border-radius: 15px;
     margin-top: 30px;
-    color: white;
 }
 
 .services img {
@@ -109,7 +109,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
-    color: white;
     margin: 40px 100px;
 }
 
@@ -119,7 +118,6 @@ body {
     display: flex;
     margin: 0px 40px;
     font-family: Montserrat;
-    color: white;
     gap: 40px;
     justify-content: center;
     padding-bottom: 30px;
@@ -168,7 +166,6 @@ body {
     max-width: 45%;
     max-height: fit-content;
     font-size: 30px;
-    color: white;
     font-family: Open Sans;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -178,7 +175,6 @@ body {
 .smallText {
     font-size: 14px;
     font-family: Open Sans;
-    color: #ffffff;
 }
 
 .lmore-button {
@@ -187,7 +183,6 @@ body {
     border-radius: 10px;
     padding: 8px 18px;
     font-size: 14px;
-    color:white;
     cursor: pointer;
     margin-top: 10px;
     text-decoration: none;
@@ -214,7 +209,6 @@ body {
     padding: 20px;
     max-height: 150px;
     border-radius: 10px;
-    color: white;
     font-family: Open Sans;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -232,7 +226,6 @@ body {
 .results {
     display: flex;
     font-family: Montserrat;
-    color: white;
     flex-direction: column;
     align-items: center;
     max-width: fit-content;
@@ -261,4 +254,69 @@ body {
     background-color: #26012f;
     border-radius: 1000px;
     padding: 20px;
+}
+
+/* iframe and details */
+
+.iframe {
+    display: flex;
+    font-family: Montserrat;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.39);
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+
+.iframe-company-details {
+    padding-left: 40px;
+    align-items: center;
+    max-height: fit-content;
+    margin: auto;
+}   
+
+.company-header {
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    margin: auto;
+    gap: 10px;
+    font-size: 26px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.company-header img {
+    width: 50px;
+    height: auto;
+}
+
+/* footer */
+
+footer {
+    font-family: montserrat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 10px 5px 10px;
+    text-align: center;
+}
+
+footer h5 {
+    margin: 0;
+}
+
+.policy-links {
+    display: flex;
+    gap: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
