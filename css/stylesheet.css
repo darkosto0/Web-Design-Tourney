@@ -228,6 +228,7 @@ body {
 }
 
 /* results section */
+
 .results {
     display: flex;
     font-family: Montserrat;
@@ -251,7 +252,6 @@ body {
     border-radius: 15px; 
     padding: 20px;
     text-align: center;
-    align-items: center;
 }
 
 .results .industries img {
