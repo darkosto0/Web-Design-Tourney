@@ -157,7 +157,7 @@ body {
     max-width: 1000px;
     max-height: 400px;
     margin: auto;
-
+    margin-top: 30px;
     background: rgba(54, 13, 60, 0.9); 
     padding: 30px;
     border-radius: 15px; 
@@ -225,4 +225,40 @@ body {
 
 .stat-box p {
     margin: 0;
+}
+
+/* results section */
+.results {
+    display: flex;
+    font-family: Montserrat;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.results h2 {
+    text-align: center;
+}
+
+.results .industries section {
+    display: inline-grid;
+    grid-template-columns: repeat(5);
+    gap: 20px;
+    max-width: 200px;
+    border-radius: 15px; 
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.results .industries img {
+    width: 80px;
+    height: auto;
+    margin: auto;
+    background-color: #26012f;
+    border-radius: 1000px;
+    padding: 20px;
 }
