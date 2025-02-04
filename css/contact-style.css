@@ -56,6 +56,7 @@ body {
 }
 
 /* big text */
+
 .big-text {
     margin-top: 200px;
     margin-left: 140px;
@@ -73,6 +74,128 @@ body {
     margin-bottom: 5px;
 }
 
+/* banner  */
+
+.banner {
+    font-family: Montserrat;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.39);
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    gap: 150px;
+    padding: 30px;
+    border-radius: 7px;
+    justify-content: space-between;
+}
+
+.company-logo {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    gap: 10px;
+    font-size: 26px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.company-logo img {
+    max-width: 50px;
+    height: auto;
+}
+
+.company-information {
+    text-align: center;
+}
+
+/* form */
+
+.form-text {
+    font-family: Montserrat;
+    text-align: left;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.form-text h5 {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.form-text h2 {
+    margin-top: 5px;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||| big funny seperator*/
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.39);
+    max-width: 90vw;
+    margin: auto;
+    border-radius: 7px;
+    font-family: Montserrat;
+}
+
+.form-container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    padding: 5vw;
+    margin-top: 30px;
+}
+
+.form-container input, .form-container textarea {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(138, 138, 138);
+    border-radius: 22px;
+    min-height: 40px;
+    width: 100%;
+    color: white;
+    font-family: Montserrat;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.form-container textarea {
+    min-height: 200px;
+    min-width: 100%;
+    resize: vertical;
+}
+
+.form-container button {
+    display: flex;
+    background: rgba(114, 0, 126, 0.4);
+    color: white;
+    font-family: Montserrat;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 22px;
+    border-color: rgb(138, 138, 138);
+    align-items: flex-start;
+    max-width: fit-content;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.form-container button:hover {
+    background-color: white;
+    color: rgb(106, 3, 117);
+    border-color: rgb(255, 255, 255);
+}
+
+.form-container input:focus, .form-container textarea:focus {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgb(106, 3, 117);
+    color: white;
+    outline: none;
+}
 /* stats box - javascript needed*/
 
 .container {
