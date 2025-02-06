@@ -18,7 +18,7 @@
         </div>
         <div class="header-b">
             <a href="/html/services.html">Services</a>
-            <a href="#">About Us</a>
+            <a href="/html/about-us.html">About Us</a>
             <a href="/html/contact.html">Contact</a>
         </div>
     </header>
@@ -175,6 +175,35 @@
             </section>
         </div>
     </div>
+
+    <!--LiveChat-->
+    <link rel="stylesheet" href="css/chat-boot.css">
+    <script>
+        var LHC_API = LHC_API || {};
+        LHC_API.args = {
+            mode: 'widget',
+            lhc_base_url: '//digitalna.livehelperchat.com/',
+            wheight: 450,
+            wwidth: 350,
+            pheight: 520,
+            pwidth: 500,
+            leaveamessage: true,
+            check_messages: true
+        };
+
+        (function() {
+            var po = document.createElement('script'); 
+            po.setAttribute('crossorigin', 'anonymous');
+            po.type = 'text/javascript'; 
+            po.async = true;
+            var date = new Date();
+            po.src = '//digitalna.livehelperchat.com/design/defaulttheme/js/widgetv2/index.js?' + 
+                     ("" + date.getFullYear() + date.getMonth() + date.getDate());
+            var s = document.getElementsByTagName('script')[0]; 
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+
 
     <!--iframe and details-->
 
