@@ -55,6 +55,12 @@ body {
     gap: 10px;              
 }
 
+@media (max-width: 1078px) {
+    
+}
+
+/* big text (duh) */
+
 .bigText {
     margin-top: 200px;
     margin-left: 140px;
@@ -72,7 +78,7 @@ body {
 
 .services {
     font-family: Montserrat;
-    display: flex;
+    display: flex; /* Default flex layout */
     flex-direction: row;
     gap: 20px;
     background: rgba(54, 13, 60, 0.9);
@@ -100,6 +106,33 @@ body {
     background-color: rgb(85, 7, 91);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+@media (max-width: 970px) {
+    .services {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 10px;
+        max-width: 100%; /* Ensure it uses full available width */
+        padding: 10px; /* Adjust padding if needed */
+    }
+}
+
+@media (max-width: 504px) {
+    .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 10px;
+        max-width: 100%; /* Ensure it uses full available width */
+        padding: 10px; /* Adjust padding if needed */
+        border-radius: 0px;
+    }
+    .services section {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: none;
+    }
 }
 
 /* Description */
@@ -144,6 +177,46 @@ body {
     padding: 20px;
     background-color: rgba(114, 0, 126, 0.4);
     border-radius: 10px;
+}
+
+@media (max-width: 970px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 10px;
+        max-width: 100%;
+        padding: 10px;
+        border-radius: 15px; 
+    }
+    .detailed-services {
+        margin: 5px;
+    }
+    .grid section {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 616px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+        gap: 10px;
+        max-width: 100%;
+        padding: 10px;
+        border-radius: 0px;
+        background-color: rgba(0, 0, 0, 0);
+
+    }
+    .detailed-services {
+        margin: 0;
+    }
+    .grid section {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.363);
+
+    }
 }
 
 /* stats box */
