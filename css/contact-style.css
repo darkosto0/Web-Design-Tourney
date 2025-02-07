@@ -14,7 +14,6 @@ body {
 }
 
 /* main header */
-
 .header {
     display: flex;
     position: fixed;
@@ -24,17 +23,22 @@ body {
     background-color: #26012f;
     font-family: Montserrat;
     font-size: 32px;
-    padding: 10px 90px;
+    padding: 10px 2rem;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     z-index: 1000;
-    
+}
+
+.header-a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .header-a a {
     text-decoration: none;
     font-weight: bold;
-    color: white
+    color: white;
 }
 
 .header-a img {
@@ -42,17 +46,61 @@ body {
     height: auto;
 }
 
-.header-b a {
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 20px;
-    color: white
+.nav-menu {
+    display: flex;
+    gap: 20px;
 }
 
-.header-a {
-    display: flex;       
-    align-items: center;   
-    gap: 10px;              
+.nav-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.hamburger {
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+
+@media (max-width: 1010px) {
+    .nav-menu {
+        display: none;  /* Hide menu by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #26012f;
+        padding: 15px;
+        border-radius: 10px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .nav-menu a {
+        display: block;
+        padding: 10px;
+    }
+
+    .hamburger {
+        display: block; /* Show hamburger icon */
+    }
+
+    /* Show menu when active */
+    .nav-menu.active {
+        display: flex;
+    }
+}
+
+@media (max-width: 486px) {
+    .header-a {
+        font-size: 1.5rem;
+    }
+    .header-a img {
+        width: 35px;
+        height: auto;
+    }
 }
 
 /* big text */
