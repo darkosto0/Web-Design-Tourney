@@ -270,6 +270,7 @@ body {
     max-width: fit-content;
     margin: auto;
     flex-direction: row;
+    justify-content: space-between;
     gap: 60px;
     background-color: rgba(0, 0, 0, 0.411);
     padding: 30px;
@@ -300,9 +301,10 @@ body {
 
 .stat-grid {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 10px;
+    width: 50%;
 }
 
 .stat-grid .grid-block {
@@ -310,13 +312,10 @@ body {
     border-radius: 7px;
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 110px;
-    max-height: 190px;
-    padding: 5px;
+    width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
-    padding: 20px;
 }
 
 .stat-grid h2 {
@@ -329,7 +328,7 @@ body {
     margin: 2px;
 }
 
-#lmore-button {
+.lmore-button {
     background: none;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
@@ -342,6 +341,59 @@ body {
     width: fit-content;
     margin: 0px auto;
 }
+
+@media (max-width: 1047px) {
+    .stat-box {
+        gap: 10px;
+        padding: 15px;
+    }
+    .stat-text h1 {
+        font-size: 2rem;
+    }
+    .stat-text p {
+        font-size: 0.85rem;
+    }
+    .stat-text {
+        padding: 0;
+    }
+}
+
+@media (max-width: 946px){
+    .stat-box {
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 818px) {
+    .stat-box {
+        display: flex;
+        flex-direction: column;
+        width:max-content;
+        border-radius: 7px;
+    }
+    .stat-text {
+        margin: 0px 5px;
+        text-align: start;
+        min-width: 90vw;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .stat-text p {
+        width: 80vw;
+    }
+    .stat-text .lmore-button {
+        display: inline-block;
+        margin: 0;
+        text-align: left;
+        align-self: flex-start;
+    }
+    .stat-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+    }
+}
+
 
 /* results section */
 
