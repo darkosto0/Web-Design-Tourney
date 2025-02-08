@@ -13,7 +13,7 @@ function animateValue(id, start, end, duration) {
 }
 
 function animateOnScroll() {
-        const statsSection = document.querySelector('.stats');
+        const statsSection = document.querySelector('.stat-grid');
         let animated = false;
     
         function isInViewport() {
