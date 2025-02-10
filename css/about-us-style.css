@@ -67,7 +67,7 @@ body {
 
 @media (max-width: 1010px) {
   .nav-menu {
-      display: none;  /* Hide menu by default */
+      display: none;
       flex-direction: column;
       position: absolute;
       top: 60px;
@@ -85,10 +85,9 @@ body {
   }
 
   .hamburger {
-      display: block; /* Show hamburger icon */
+      display: block;
   }
 
-  /* Show menu when active */
   .nav-menu.active {
       display: flex;
   }
