@@ -106,17 +106,22 @@ body {
 /* big text (duh) */
 
 .bigText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
     margin-top: 200px;
-    margin-left: 140px;
-    margin-right: 140px;
     font-family: Open Sans;
     text-align: center;
-    font-size: 37px;
+    font-size: 2rem;
+    width: 95vw;
 }
 
 .bigText p {
     font-size: 20px;
 }
+
 
 /* services panel */
 
@@ -158,8 +163,9 @@ body {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, auto);
         gap: 10px;
-        max-width: 100%; /* Ensure it uses full available width */
-        padding: 10px; /* Adjust padding if needed */
+        max-width: 100%;
+        padding: 10px;
+        border-radius: 0px;
     }
 }
 
@@ -169,8 +175,8 @@ body {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
         gap: 10px;
-        max-width: 100%; /* Ensure it uses full available width */
-        padding: 10px; /* Adjust padding if needed */
+        max-width: 100%;
+        padding: 10px;
         border-radius: 0px;
     }
     .services section {
@@ -184,9 +190,36 @@ body {
 .descriptions {
     font-family: Montserrat;
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 40px 100px;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    margin: 50px auto;
+    width: 85vw;
+}
+
+.aside-text, .aside-description {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0px;
+    text-align: start;
+    gap: 0px;
+}
+
+.aside-text p, h1 {
+    margin: 10px 0;
+}
+
+@media (max-width: 970px) {
+    .descriptions {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .aside-text h1 {
+        font-size: 1.3rem;
+    }
+    .aside-description p {
+        font-size: 14px;
+    }
 }
 
 /* Detailed Services */
