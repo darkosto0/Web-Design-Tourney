@@ -213,12 +213,13 @@ body {
     .descriptions {
         flex-direction: column;
         gap: 0px;
+        margin: 30px auto;
     }
     .aside-text h1 {
         font-size: 1.3rem;
     }
     .aside-description p {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
