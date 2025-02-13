@@ -23,7 +23,7 @@ body {
     background-color: #26012f;
     font-family: Montserrat;
     font-size: 32px;
-    padding: 10px 2rem;
+    padding: 5px 2rem;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
@@ -108,7 +108,7 @@ body {
 
 /* big text (duh) */
 
-.bigText {
+.big-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -121,10 +121,19 @@ body {
     width: 95vw;
 }
 
-.bigText p {
+.big-text p {
     font-size: 20px;
 }
 
+@media (max-width: 575px) {
+    .big-text {
+        font-size: 0.90rem;
+        margin-top: 150px;
+    }
+    .big-text p {
+        font-size: 16px;
+    }
+}
 
 /* services panel */
 
@@ -172,7 +181,7 @@ body {
     }
 }
 
-@media (max-width: 504px) {
+@media (max-width: 575px) {
     .services {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -573,19 +582,13 @@ body {
 footer {
     font-family: montserrat;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 30px 10px 5px 10px;
-    text-align: center;
 }
 
 footer h5 {
     margin: 0;
-}
-
-.policy-links {
-    display: flex;
-    gap: 15px;
 }
 
 footer a {

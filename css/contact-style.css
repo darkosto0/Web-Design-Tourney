@@ -161,7 +161,7 @@ body {
     text-align: center;
 }
 
-@media (max-width: 593px) {
+@media (max-width: 610px) {
     .banner {
         flex-direction: column;
     }
@@ -173,7 +173,7 @@ body {
 .form-text {
     font-family: Montserrat;
     text-align: left;
-    max-width: 80vw;
+    width: 80vw;
     margin: auto;
     margin-top: 30px;
     font-size: 20px;
@@ -188,6 +188,18 @@ body {
 
 .form-text h2 {
     margin-top: 5px;
+}
+
+@media (max-width: 548px) {
+    .form-text h2 {
+        font-size: 25px;
+    }
+    .form-text p {
+        font-size: 15px;
+    }
+    .form-text h5 {
+        font-size: 12px;
+    }
 }
 
 /*||||||||||||||||||||||||||||||||||||||||| big funny seperator*/
@@ -354,12 +366,6 @@ body {
     }
 }
 
-@media (max-width: 946px){
-    .stat-box {
-        border-radius: 0px;
-    }
-}
-
 @media (max-width: 818px) {
     .stat-box {
         display: flex;
@@ -479,11 +485,6 @@ footer {
 
 footer h5 {
     margin: 0;
-}
-
-.policy-links {
-    display: flex;
-    gap: 15px;
 }
 
 footer a {
