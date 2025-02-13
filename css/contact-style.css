@@ -7,7 +7,7 @@ body {
     height: 100vh;
     background-image: url("../assets/images/background.png");
     background-repeat: repeat-y;
-    background-size: cover;
+    background-size: contain;
     background-attachment: scroll;
     background-color: #8B0097;
     color: white;
@@ -103,12 +103,15 @@ body {
     }
 }
 
-/* big text */
+/* big text (come on you know what this is by now, surely right?) */
 
 .big-text {
-    margin-top: 200px;
-    margin-left: 140px;
-    margin-right: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+    width: fit-content;
     font-family: Open Sans;
     text-align: center;
     font-size: 37px;
@@ -120,6 +123,7 @@ body {
 
 .big-text h1 {
     margin-bottom: 5px;
+    text-wrap: nowrap;
 }
 
 /* banner  */
@@ -128,13 +132,14 @@ body {
     font-family: Montserrat;
     display: flex;
     background-color: rgba(0, 0, 0, 0.39);
-    max-width: fit-content;
+    flex-direction: row;
+    width: fit-content;
     margin: auto;
-    margin-top: 100px;
-    gap: 150px;
+    margin-top: 60px;
     padding: 30px;
     border-radius: 7px;
     justify-content: space-between;
+    gap: 5vw;
 }
 
 .company-logo {
@@ -155,6 +160,13 @@ body {
 .company-information {
     text-align: center;
 }
+
+@media (max-width: 593px) {
+    .banner {
+        flex-direction: column;
+    }
+}
+
 
 /* form */
 
@@ -244,6 +256,7 @@ body {
     color: white;
     outline: none;
 }
+
 /* stats box */
 
 .stat-box {
@@ -392,7 +405,7 @@ body {
     background-color: rgba(0, 0, 0, 0.39);
     padding: 10px;
     border-radius: 7px;
-    margin-top: 50px;
+    margin-top: 30px;
     max-width: 80vw;
 }
 
@@ -459,10 +472,9 @@ body {
 footer {
     font-family: montserrat;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 30px 10px 5px 10px;
-    text-align: center;
 }
 
 footer h5 {
