@@ -13,6 +13,12 @@ body {
     color: white;
 }
 
+@media (max-width: 584px) {
+    body {
+        background-size: contain;
+    }
+}
+
 /* main header */
 .header {
     display: flex;
