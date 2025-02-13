@@ -507,23 +507,28 @@ body {
     padding: 10px;
     border-radius: 7px;
     margin-top: 50px;
+    max-width: 80vw;
 }
 
 .iframe-company-details {
     align-items: center;
-    width: fit-content;
+    min-width: 290px;
     margin: auto;
     padding: 0px 20px;
 }   
 
 .iframe-container {
     display: flex;
-    width: max-content;
+    justify-content: center; /* Center it within the container */
+    width: fit-content; /* Ensures it scales with the parent */
 }
 
 .iframe-container iframe {
-    
+    width: 100%; /* Make it responsive */
+    max-width: 100%; /* Prevents it from getting too large */
+    aspect-ratio: 16 / 9; /* Maintains the aspect ratio */
 }
+
 
 .company-header {
     display: flex;
