@@ -70,35 +70,41 @@
             <button type="submit">Send</button>
         </form>
     </div>
-    <!--stats box-->
-    
-    <section class="container">
-        <div class="content">
-            <h1>Maximizing Your Brand’s Potential</h1>
-            <p class="smallText">In <strong>Spark Marketing LTD</strong> We provide ideal marketing solutions tailored to optimize multi-channel advertising campaigns for maximum effectiveness.</p>
-            <a class="lmore-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Learn More</a> <!--its best practice to use <a> for buttons, andrej-->
-        </div>
-        <div class="stats">
-            <div class="stat-box">
+
+    <!--stat box-->
+
+    <div class="stat-box">
+        <section class="stat-text">
+            <h1>Maximizing Your Brand's Potential</h1>
+            <p>In <strong>Spark Marketing LLC</strong> We provide ideal marketing solutions tailored to optimize multi-channel advertising campaigns for maximum effectiveness.</p>
+            <a class="lmore-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Learn More</a>
+        </section>
+        <section class="stat-grid">
+            <section class="grid-block">
                 <h2 id="stat-year">2017</h2>
                 <p>Year of establishment</p>
-            </div>
-            <div class="stat-box">
+            </section>
+            <section class="grid-block">
                 <h2 id="stat-clients">754</h2>
                 <p>Satisfied clients</p>
-            </div>
-            <div class="stat-box">
+            </section>
+            <section class="grid-block">
                 <h2 id="stat-projects">120</h2>
                 <p>Finished projects</p>
-            </div>
-            <div class="stat-box">
+            </section>
+            <section class="grid-block">
                 <h2 id="stat-team">4</h2>
                 <p>Team members</p>
-            </div>
-        </div>
-    </section>
+            </section>
+        </section>
+    </div>
 
    <script src="../js/script.js"></script>
+
+    <!--live chat-->
+
+    <link rel="stylesheet" href="css/chat-bot.css">
+    <script src="js/live-chat-bot.js"></script>
 
     <!--iframe and details-->
 
@@ -115,25 +121,23 @@
                 <h3><strong>053 152 552</strong></h3>            
             </section>
         </div>
-        <iframe 
-            width="600" 
-            height="300" 
-            style="border:0;" 
-            loading="lazy" 
-            allowfullscreen 
-            referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps?q=41.4414315181446,22.020029425621036&hl=es;z=14&output=embed">
-        </iframe>
+        <div class="iframe-container">
+            <iframe 
+                width="600" 
+                height="300" 
+                style="border:0;" 
+                loading="lazy" 
+                allowfullscreen 
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=41.4414315181446,22.020029425621036&hl=es;z=14&output=embed">
+            </iframe>
+        </div>
     </div>
 
     <!--footer-->
 
     <footer>
         <h5>Copyright &copy; 2025 Spark Marketing. All Rights Reserved.</h5>
-        <section class="policy-links">
-            <a href="#">Terms of Service</a>
-            <a href="#">Privacy Policy</a>
-        </section>
     </footer>
     <br>
 </body>
