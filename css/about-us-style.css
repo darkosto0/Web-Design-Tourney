@@ -19,11 +19,14 @@ body {
   display: flex;
   position: fixed;
   top: 0;
+
   left: 0;
   right: 0;
   background-color: #26012f;
+
   font-family: Montserrat;
-  font-size: 32px;
+  font-size: 32px; 
+
   padding: 10px 2rem;
   justify-content: space-between;
   align-items: center;
@@ -39,6 +42,8 @@ body {
 .header-a a {
   text-decoration: none;
   font-weight: bold;
+
+
   color: white;
 }
 
@@ -55,6 +60,7 @@ body {
 .nav-menu a {
   text-decoration: none;
   font-weight: bold;
+
   color: white;
 }
 
@@ -70,13 +76,14 @@ body {
       display: none;
       flex-direction: column;
       position: absolute;
-      top: 60px;
-      right: 20px;
-      background-color: #26012f;
       padding: 15px;
       border-radius: 10px;
       width: 200px;
       text-align: center;
+      top: 60px;
+      right: 20px;
+      background-color: #26012f;
+     
   }
 
   .nav-menu a {
