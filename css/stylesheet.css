@@ -519,14 +519,14 @@ body {
 
 .iframe-container {
     display: flex;
-    justify-content: center; /* Center it within the container */
-    width: fit-content; /* Ensures it scales with the parent */
+    justify-content: center;
+    width: fit-content;
 }
 
 .iframe-container iframe {
-    width: 100%; /* Make it responsive */
-    max-width: 100%; /* Prevents it from getting too large */
-    aspect-ratio: 16 / 9; /* Maintains the aspect ratio */
+    width: 100%;
+    max-width: 100%; 
+    aspect-ratio: 16 / 9;
 }
 
 
