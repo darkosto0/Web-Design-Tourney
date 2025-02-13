@@ -66,7 +66,7 @@ body {
 
 @media (max-width: 1010px) {
     .nav-menu {
-        display: none;  /* Hide menu by default */
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 60px;
@@ -84,10 +84,9 @@ body {
     }
 
     .hamburger {
-        display: block; /* Show hamburger icon */
+        display: block;
     }
 
-    /* Show menu when active */
     .nav-menu.active {
         display: flex;
     }
@@ -131,7 +130,7 @@ body {
 
 .services {
     font-family: Montserrat;
-    display: flex; /* Default flex layout */
+    display: flex;
     flex-direction: row;
     gap: 20px;
     background: rgba(54, 13, 60, 0.9);
@@ -456,7 +455,7 @@ body {
     display: inline-grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 2px;
-    align-items: stretch; /* Ensures all items stretch to the tallest one */
+    align-items: stretch;
 }
 
 
@@ -465,7 +464,7 @@ body {
 }
 
 .industries section {
-    height: 190px; /* Adjust based on content */
+    height: 190px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
