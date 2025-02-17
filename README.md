@@ -9,3 +9,6 @@ Poppins: bold headers, modern aesthetic <br>
 
 ## **The Team**
 gonna make a contrib.rocks attachment image here when the repo goes public
+
+`sq-AL` is the regional code for Albania
+`mk-MK` is the regional code for Macedonia
