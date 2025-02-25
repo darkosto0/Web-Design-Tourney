@@ -125,6 +125,9 @@ body {
 }
 
 .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: rgba(0, 0, 0, 0.377);
     padding: 20px;
     border-radius: 10px;
