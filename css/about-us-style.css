@@ -19,15 +19,12 @@ body {
   display: flex;
   position: fixed;
   top: 0;
-
   left: 0;
   right: 0;
   background-color: #26012f;
-
   font-family: Montserrat;
-  font-size: 32px; 
-
-  padding: 10px 2rem;
+  font-size: 32px;
+  padding: 5px 2rem;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
@@ -42,8 +39,6 @@ body {
 .header-a a {
   text-decoration: none;
   font-weight: bold;
-
-
   color: white;
 }
 
@@ -54,13 +49,12 @@ body {
 
 .nav-menu {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .nav-menu a {
   text-decoration: none;
   font-weight: bold;
-
   color: white;
 }
 
@@ -94,14 +88,13 @@ body {
       display: none;
       flex-direction: column;
       position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #26012f;
       padding: 15px;
       border-radius: 10px;
       width: 200px;
       text-align: center;
-      top: 60px;
-      right: 20px;
-      background-color: #26012f;
-     
   }
 
   .nav-menu a {
@@ -126,7 +119,13 @@ body {
       width: 35px;
       height: auto;
   }
+  .header {
+      padding-right: 20px;
+      padding-left: 20px;
+  }
 }
+
+/* */
 
 .box {
     max-width: 1000px;
