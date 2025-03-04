@@ -70,7 +70,43 @@ body {
     color: white;
 }
 
-@media (max-width: 1010px) {
+.nav-menu nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.separator {
+    width: 1px;         
+    height: 40px;          
+    background-color: #ccc; 
+    margin: 0 10px;          
+}
+
+.language-selection {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.separator {
+    width: 1px;         
+    height: 40px;          
+    background-color: #ccc; 
+    margin: 0 10px;          
+}
+
+.language-selection {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 1111px) {
     .nav-menu {
         display: none;  /* Hide menu by default */
         flex-direction: column;
