@@ -206,6 +206,140 @@ body {
     color: rgb(56, 2, 70);
 }
 
+/* stats box */
+
+.stat-box {
+    display: flex;
+    max-width: fit-content;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 30px;
+    border-radius: 7px;
+    font-family: "Open Sans";
+    margin-top: 30px;
+    width: 93%;
+}
+
+.stat-text {
+    display: flex; /* I FUCKING LOVE FLEXBOX */
+    flex-direction: column; 
+    text-align: center;
+    width: 400px;
+    gap: 20px;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.stat-text h1 {
+    font-size: 45px;
+    margin: 5px;
+}
+
+.stat-text p {
+    font-size: 14px;
+    margin: 5px;
+}
+
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 50%;
+}
+
+.stat-grid .grid-block {
+    background-color: rgba(95, 25, 104, 0.726);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-grid h2 {
+    font-size: 36px;
+    margin: 2px;
+}
+
+.stat-grid p {
+    font-size: 24px;
+    margin: 2px;
+}
+
+.lmore-button {
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 8px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+@media (max-width: 1047px) {
+    .stat-box {
+        gap: 10px;
+        padding: 15px;
+    }
+    .stat-text h1 {
+        font-size: 2rem;
+    }
+    .stat-text p {
+        font-size: 0.85rem;
+    }
+    .stat-text {
+        padding: 0;
+    }
+}
+
+@media (max-width: 946px){
+    .stat-box {
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 818px) {
+    .stat-box {
+        display: flex;
+        flex-direction: column;
+        width:max-content;
+        border-radius: 7px;
+        width: 93%;
+
+    }
+    .stat-text {
+        margin: 0px 5px;
+        text-align: start;
+        min-width: 90vw;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .stat-text p {
+        width: 80vw;
+    }
+    .stat-text .lmore-button {
+        display: inline-block;
+        margin: 0;
+        text-align: left;
+        align-self: flex-start;
+    }
+    .stat-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+    }
+}
+
 /* results section */
 
 .results {
