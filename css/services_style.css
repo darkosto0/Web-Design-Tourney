@@ -152,6 +152,8 @@ body {
 
 .service-container p {
     font-size: 18px;
+    text-align: left;
+    align-items: start;
 }
 
 .service-container a {
@@ -174,7 +176,7 @@ body {
     height: fit-content;
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .service-1 {
@@ -191,8 +193,12 @@ body {
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: 10px;
-    text-align: right;
+    text-align: left;
     align-items: center;
+}
+
+.service-2 h3 {
+    text-align: right;
 }
 
 .service-2 a {
