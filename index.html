@@ -29,12 +29,13 @@
             <div class="dropdown">
                 <i class="fas fa-globe language-select-icon" onclick="toggleDropdown()"></i>
                 <div class="dropdown-content">
-                  <a href="#">EN</a>
-                  <a href="#">MK</a>
-                  <a href="#">AL</a>
+                    <a onclick="changeLanguage('en')">EN</a>
+                    <a onclick="changeLanguage('mk')">MK</a>
+                    <a onclick="changeLanguage('sq')">AL</a>
                 </div>
             </div>
             <script src="js/language-toggle.js"></script>
+            <script src="js/language-json.js"></script>
         </section>
         <div class="hamburger" onclick="toggleMenu()">☰</div>
     </header>
@@ -169,23 +170,25 @@
         </section>
         <div class="industries">
             <h2 data-translate="industries-served">Industries We Serve</h2>
-            <div class="industries-grid">
-                <section>
-                    <img src="assets/images/industries/retail.png" alt="E-Commerce & Retail">
-                    <p data-translate="industry-ecommerce">E-Commerce & Retail</p>
-                </section>
-                <section>
-                    <img src="assets/images/industries/real-estate.png" alt="Real Estate and Construction">
-                    <p data-translate="industry-realestate">Real Estate & Construction</p>
-                </section>
-                <section>
-                    <img src="assets/images/industries/software.png" alt="Technology and SaaS">
-                    <p data-translate="industries-tech">Technology & SaaS</p>
-                </section>
-                <section>
-                    <img src="assets/images/industries/education.png" alt="Education & Coaching">
-                    <p data-translate="industries-education">Education & Coaching</p> 
-                </section>
+            <div class="industry-grid-container">
+                <div class="industries-grid">
+                    <section>
+                        <img src="assets/images/industries/retail.png" alt="E-Commerce & Retail">
+                        <p data-translate="industry-ecommerce">E-Commerce & Retail</p>
+                    </section>
+                    <section>
+                        <img src="assets/images/industries/real-estate.png" alt="Real Estate and Construction">
+                        <p data-translate="industry-realestate">Real Estate & Construction</p>
+                    </section>
+                    <section>
+                        <img src="assets/images/industries/software.png" alt="Technology and SaaS">
+                        <p data-translate="industries-tech">Technology & SaaS</p>
+                    </section>
+                    <section>
+                        <img src="assets/images/industries/education.png" alt="Education & Coaching">
+                        <p data-translate="industries-education">Education & Coaching</p> 
+                    </section>
+                </div>
             </div>
         </div>
     </div>

@@ -431,6 +431,7 @@ body {
 .stat-grid p {
     font-size: 24px;
     margin: 2px;
+    text-align: center;
 }
 
 .lmore-button {
@@ -520,11 +521,17 @@ body {
 
 .industries-grid {
     display: inline-grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2px;
     align-items: stretch;
 }
 
+.industry-grid-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
 
 .industries {
     width: 95vw;
@@ -551,9 +558,17 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0px;
+    align-items: center;
 }
 
 @media (max-width: 980px) {
+    .industries-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 500px) {
     .industries-grid {
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
