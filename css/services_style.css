@@ -126,86 +126,217 @@ body {
     }
 }
 
-/* */
+/* services */
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 100px;
-}
-
-.services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 40px 20px;
-}
-
-.service {
+.service-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center ;
-    background: rgba(0, 0, 0, 0.377);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none;
-    color: white;
+    gap: 30px;
+    width: 864px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: Montserrat;
 }
 
-.service:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
-
-.service img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.service h2 {
-    color: white;
-    margin: 15px 0;
-    font-size: 1.5em;
-}
-
-.service p {
-    font-size: 1em;
-    line-height: 1.5;
-    color: white;
-}
-
-.service a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    text-decoration: none;
-    background: #b30092;
-    color: white;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-}
-
-.service img {
+.service-container img {
     width: 300px;
     height: auto;
 }
 
-.service a:hover {
-    background: #800060;
+.service-container h3 {
+    font-size: 40px;
+    margin: 0px 0px;
 }
 
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2em;
+.service-container p {
+    font-size: 18px;
+}
+
+.service-container a {
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: aliceblue;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.24);
+    border-width: 2px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.service-text {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.service-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+.service-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: right;
+    align-items: center;
+}
+
+.service-2 a {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.service-container a:hover {
+    background-color: aliceblue;
+    color: rgb(56, 2, 70);
+}
+
+/* stats box */
+
+.stat-box {
+    display: flex;
+    max-width: fit-content;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 30px;
+    border-radius: 7px;
+    font-family: "Open Sans";
+    margin-top: 30px;
+    width: 93%;
+}
+
+.stat-text {
+    display: flex; /* I FUCKING LOVE FLEXBOX */
+    flex-direction: column; 
+    text-align: center;
+    width: 400px;
+    gap: 20px;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.stat-text h1 {
+    font-size: 45px;
+    margin: 5px;
+}
+
+.stat-text p {
+    font-size: 14px;
+    margin: 5px;
+}
+
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 50%;
+}
+
+.stat-grid .grid-block {
+    background-color: rgba(95, 25, 104, 0.726);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-grid h2 {
+    font-size: 36px;
+    margin: 2px;
+}
+
+.stat-grid p {
+    font-size: 24px;
+    margin: 2px;
+}
+
+.lmore-button {
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 8px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+@media (max-width: 1047px) {
+    .stat-box {
+        gap: 10px;
+        padding: 15px;
     }
-    .services {
-        grid-template-columns: 1fr;
+    .stat-text h1 {
+        font-size: 2rem;
+    }
+    .stat-text p {
+        font-size: 0.85rem;
+    }
+    .stat-text {
+        padding: 0;
+    }
+}
+
+@media (max-width: 946px){
+    .stat-box {
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 818px) {
+    .stat-box {
+        display: flex;
+        flex-direction: column;
+        width:max-content;
+        border-radius: 7px;
+        width: 93%;
+
+    }
+    .stat-text {
+        margin: 0px 5px;
+        text-align: start;
+        min-width: 90vw;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .stat-text p {
+        width: 80vw;
+    }
+    .stat-text .lmore-button {
+        display: inline-block;
+        margin: 0;
+        text-align: left;
+        align-self: flex-start;
+    }
+    .stat-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
     }
 }
 
