@@ -391,6 +391,11 @@ body {
     margin-top: 30px;
 }
 
+.results-description p {
+    align-items: start;
+    text-align: left;
+}
+
 .results h2 {
     text-align: center;
 }
