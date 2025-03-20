@@ -1,14 +1,18 @@
 function toggleDropdown() {
-    const dropdown = document.querySelector('.dropdown');
-    dropdown.classList.toggle('active');
-}
-
-// Close the dropdown if clicked outside of it
-window.onclick = function(event) {
-    if (!event.target.matches('.language-select-icon') && !event.target.matches('.dropdown')) {
-        const dropdowns = document.querySelectorAll('.dropdown-content');
-        dropdowns.forEach(dropdown => {
-            dropdown.style.display = 'none'; // Hide the dropdown if clicked outside
-        });
+    const dropdownContent = document.querySelector('.dropdown-content');
+    
+    if (dropdownContent.style.display === 'block') {
+        dropdownContent.style.display = 'none';
+    } else {
+        dropdownContent.style.display = 'block';
     }
 }
+
+window.onclick = function(event) {
+    const dropdown = document.querySelector('.dropdown');
+    const dropdownContent = document.querySelector('.dropdown-content');
+
+    if (!dropdown.contains(event.target)) {
+        dropdownContent.style.display = 'none';
+    }
+};
