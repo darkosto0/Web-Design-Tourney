@@ -1,0 +1,167 @@
+{
+    "en": {
+        "title": "Spark Marketing",
+        "nav-service": "Services",
+        "nav-abt-us": "About Us",
+        "nav-contact": "Contact",
+
+        "welcome-text": "Welcome to Spark Marketing",
+        "welcome-elevate": "Elevate Your Digital Presence",
+        "welcome-description": "In today’s digital world, having a strong online presence is no longer optional—it’s essential. At Spark Marketing, we help businesses of all sizes grow, engage, and convert their audience with cutting-edge digital marketing solutions.",
+        "welcome-ourservices": "Our Services:",
+
+        "services-seo": "Search Engine <br> Optimization",
+        "services-videoediting": "Video Editing",
+        "services-socialmedia": "Social Media <br> Marketing",
+        "services-webdesign": "Web Design & <br> Development",
+        "services-graphicdesign": "Graphic Design",
+        "services-ecommerce": "E-Commerce & <br> Retail",
+
+        "descriptions-ahead": "Always be ahead.",
+        "descriptions-belowtext": "Spark Marketing has it all. You name it, we got it.",
+        "descriptions-longtext1": "Пред се преку медиуми, кои се одговорни за оптимизација и ефективност на рекламирањето за секој клиент на најпродуктивен начин.",
+        "descriptions-longtext2": "Нашата компанија е полна со позитивни, креативни и посветени луѓе кои ќе Ви помогнат да ја направите Вашата компанија видлива во деловниот свет.",
+
+        "seo-description": "We specialize in delivering top-tier SEO services that help your website rank higher on search engines like Google, Bing, and Yahoo. By optimizing your website’s structure, content, and user experience, we ensure that you attract more qualified traffic, increase conversions, and grow your online presence.",
+        "videoediting-description": "We specialize in creating high-quality, engaging videos that captivate your audience and leave a lasting impression. Whether you need a promotional video, social media content, or corporate videos, our expert editors are here to bring your vision to life.",
+        "socialmedia-description": "Social media is your brand’s window to the world. With the right strategy and content, social media can fuel growth, foster brand loyalty, and turn followers into customers. At [Your Agency Name], we specialize in creating tailored social media marketing solutions that deliver measurable results and maximize your brand’s potential.",
+        "webdesign-description": "Your website is your digital storefront. We design modern, responsive, and high-converting websites that represent your brand perfectly.",
+        "graphicdesign-description": "Logo & Brand Identity Design: We craft unique logos and brand identities that reflect your business’s values and connect with your audience. From colors to typography, our designs create a cohesive visual identity that stands out in the marketplace.",
+        "ecommerce-description": "E-Commerce Website Optimization: We ensure that your online store is fully optimized for conversions. From intuitive navigation and mobile-friendly design to fast load times and seamless checkout processes, we help create an experience that turns visitors into buyers.",
+
+        "statbox-header": "Maximizing Your Brand's Potential",
+        "statbox-description": "In <strong>Spark Marketing LLC</strong> We provide ideal marketing solutions tailored to optimize multi-channel advertising campaigns for maximum effectiveness.",
+        "statbox-lmore": "Learn More",
+
+        "statgrid-year": "Year of establishment",
+        "statgrid-clients": "Satisfied clients",
+        "statgrid-projects": "Finished projects",
+        "statgrid-team": "Team Members",
+
+        "results-header": "Why Choose Spark Marketing?",
+        "results-checkbox-1": "✔ Results-Driven Strategies – We use data and analytics to create high-performing campaigns.",
+        "results-checkbox-2": "✔ Tailored Solutions – Every business is unique, and we customize our strategies to fit your goals.",
+        "results-checkbox-3": "✔ Experienced Team – A passionate team of digital marketing professionals at your service.",
+        "results-checkbox-4": "✔ Transparent Reporting – We provide clear insights and reports to track your progress.",
+        "results-checkbox-5": "✔ Cutting-Edge Tools – We use the latest digital marketing tools and techniques.",
+        
+        "industries-served": "Industries We Serve",
+        "industry-ecommerce": "E-Commerce & Retail",
+        "industry-realestate": "Real Estate & Construction",
+        "industries-tech": "Technology & SaaS",
+        "industries-education": "Education & Coaching",
+        
+        "footer": "Copyright &copy; 2025 Spark Marketing. All Rights Reserved."
+    },
+
+    "mk": {
+        "title": "Спарк Маркетинг",
+        "nav-service": "Услуги",
+        "nav-abt-us": "За нас",
+        "nav-contact": "Контакт",
+    
+        "welcome-text": "Добредојдовте во Спарк Маркетинг",
+        "welcome-elevate": "Подигнете го вашето дигитално присуство",
+        "welcome-description": "Во денешниот дигитален свет, силното онлајн присуство не е опција – тоа е неопходност. Во Спарк Маркетинг, им помагаме на бизнисите од сите големини да растат, да се поврзат со својата публика и да ја зголемат конверзијата преку врвни дигитални маркетинг решенија.",
+        "welcome-ourservices": "Нашите услуги:",
+    
+        "services-seo": "Оптимизација на <br> пребарувачите",
+        "services-videoediting": "Видео монтажа",
+        "services-socialmedia": "Маркетинг на <br> социјалните медиуми",
+        "services-webdesign": "Веб дизајн и <br> развој",
+        "services-graphicdesign": "Графички дизајн",
+        "services-ecommerce": "Е-трговија и <br> малопродажба",
+    
+        "descriptions-ahead": "Секогаш бидете чекор напред.",
+        "descriptions-belowtext": "Спарк Маркетинг има сè што ви треба.",
+        "descriptions-longtext1": "Главно преку медиуми, кои се одговорни за оптимизација и ефикасност на рекламирањето за секој клиент на најпродуктивен начин.",
+        "descriptions-longtext2": "Нашата компанија е полна со позитивни, креативни и посветени луѓе кои ќе ви помогнат да ја направите вашата компанија видлива во деловниот свет.",
+    
+        "seo-description": "Специјализирани сме за врвни SEO услуги кои ќе го зголемат рангирањето на вашата веб-страница на пребарувачите како Google, Bing и Yahoo. Со оптимизација на структурата, содржината и корисничкото искуство, ви помагаме да привлечете повеќе квалификуван сообраќај, да ги зголемите конверзиите и да го проширите вашето онлајн присуство.",
+        "videoediting-description": "Создаваме висококвалитетни, ангажирачки видеа што ја привлекуваат вашата публика и оставаат траен впечаток. Без разлика дали ви треба промотивно видео, содржина за социјални медиуми или корпоративно видео, нашите експерти ќе ја реализираат вашата визија.",
+        "socialmedia-description": "Социјалните медиуми се прозорецот на вашиот бренд кон светот. Со правилна стратегија и содржина, тие можат да го поттикнат растот, да ја зајакнат лојалноста на брендот и да ги претворат следбениците во клиенти. Во Спарк Маркетинг, создадовме персонализирани маркетинг решенија за социјални медиуми кои носат мерливи резултати.",
+        "webdesign-description": "Вашата веб-страница е вашата дигитална продавница. Дизајнираме модерни, одговорни и високо-конвертирачки веб-страници што совршено го претставуваат вашиот бренд.",
+        "graphicdesign-description": "Дизајн на лого и визуелен идентитет: Креираме уникатни логоа и брендови што ги одразуваат вредностите на вашиот бизнис и ја поврзуваат вашата публика. Од бои до типографија, нашите дизајни создаваат кохерентен визуелен идентитет што се издвојува на пазарот.",
+        "ecommerce-description": "Оптимизација на е-трговија: Осигуруваме дека вашата онлајн продавница е целосно оптимизирана за конверзии. Од интуитивна навигација и мобилен дизајн до брзо вчитување и беспрекорен процес на купување, создававме искуство што посетителите ги претвора во купувачи.",
+    
+        "statbox-header": "Максимизирање на потенцијалот на вашиот бренд",
+        "statbox-description": "Во <strong>Спарк Маркетинг ДОО</strong> нудиме идеални маркетинг решенија приспособени за оптимизација на мултиканални рекламни кампањи со максимална ефикасност.",
+        "statbox-lmore": "Дознајте повеќе",
+    
+        "statgrid-year": "Година на основање",
+        "statgrid-clients": "Задоволни клиенти",
+        "statgrid-projects": "Завршени проекти",
+        "statgrid-team": "Членови на тимот",
+    
+        "results-header": "Зошто да го изберете Спарк Маркетинг?",
+        "results-checkbox-1": "✔ Стратегии базирани на резултати – Користиме податоци и аналитика за креирање на успешни кампањи.",
+        "results-checkbox-2": "✔ Прилагодени решенија – Секој бизнис е уникатен, затоа ги приспособуваме нашите стратегии според вашите цели.",
+        "results-checkbox-3": "✔ Искуствен тим – Страстен тим на дигитални маркетинг професионалци во ваша услуга.",
+        "results-checkbox-4": "✔ Транспарентно известување – Обезбедуваме јасен увид и извештаи за следење на вашиот напредок.",
+        "results-checkbox-5": "✔ Најсовремени алатки – Користиме најнови дигитални маркетинг алатки и техники.",
+    
+        "industries-served": "Индустрии што ги покриваме",
+        "industry-ecommerce": "Е-трговија и малопродажба",
+        "industry-realestate": "Недвижности и градежништво",
+        "industries-tech": "Технологија и SaaS",
+        "industries-education": "Образование и обука",
+    
+        "footer": "Авторски права &copy; 2025 Спарк Маркетинг. Сите права се задржани."
+    },
+
+    "al": {
+        "title": "Spark Marketing",
+        "nav-service": "Shërbimet",
+        "nav-abt-us": "Rreth Nesh",
+        "nav-contact": "Kontakt",
+    
+        "welcome-text": "Mirësevini në Spark Marketing",
+        "welcome-elevate": "Rrisni Praninë Tuaj Digjitale",
+        "welcome-description": "Në botën digjitale të sotme, të kesh një prani të fortë online nuk është më opsionale – është thelbësore. Në Spark Marketing, ne ndihmojmë bizneset e të gjitha madhësive të rriten, të angazhohen dhe të konvertojnë audiencën e tyre me zgjidhje të avancuara të marketingut digjital.",
+        "welcome-ourservices": "Shërbimet Tona:",
+    
+        "services-seo": "Optimizimi i <br> Motorëve të Kërkimit",
+        "services-videoediting": "Redaktimi i Videove",
+        "services-socialmedia": "Marketing në <br> Rrjetet Sociale",
+        "services-webdesign": "Dizajn & <br> Zhvillim Ueb",
+        "services-graphicdesign": "Dizajn Grafik",
+        "services-ecommerce": "E-Commerce & <br> Shitje me Pakicë",
+    
+        "descriptions-ahead": "Gjithmonë përpara.",
+        "descriptions-belowtext": "Spark Marketing i ka të gjitha. Ju e thoni, ne e realizojmë.",
+        "descriptions-longtext1": "Kryesisht përmes mediave, të cilat janë përgjegjëse për optimizimin dhe efektivitetin e reklamimit për çdo klient në mënyrën më produktive.",
+        "descriptions-longtext2": "Kompania jonë është e mbushur me njerëz pozitivë, kreativë dhe të përkushtuar, të cilët do t'ju ndihmojnë ta bëni kompaninë tuaj të dukshme në botën e biznesit.",
+    
+        "seo-description": "Ne specializohemi në ofrimin e shërbimeve të nivelit të lartë për SEO, që ndihmojnë faqen tuaj të renditet më lart në motorët e kërkimit si Google, Bing dhe Yahoo. Duke optimizuar strukturën, përmbajtjen dhe përvojën e përdoruesit në faqen tuaj, ne sigurojmë që të tërhiqni më shumë trafik cilësor, të rrisni konvertimet dhe të zhvilloni praninë tuaj online.",
+        "videoediting-description": "Ne krijojmë video me cilësi të lartë dhe tërheqëse që magjepsin audiencën tuaj dhe lënë një përshtypje të qëndrueshme. Qoftë për një video promovuese, përmbajtje për rrjetet sociale apo video korporative, redaktorët tanë ekspertë janë këtu për të sjellë vizionin tuaj në jetë.",
+        "socialmedia-description": "Rrjetet sociale janë dritarja e markës suaj për botën. Me strategjinë dhe përmbajtjen e duhur, rrjetet sociale mund të nxisin rritjen, të forcojnë besnikërinë ndaj markës dhe të shndërrojnë ndjekësit në klientë. Në Spark Marketing, ne specializohemi në krijimin e zgjidhjeve të personalizuara për marketingun në rrjetet sociale që sjellin rezultate të matshme dhe maksimizojnë potencialin e markës suaj.",
+        "webdesign-description": "Faqja juaj e internetit është vitrina juaj digjitale. Ne dizajnojmë faqe moderne, të përgjegjshme dhe me shkallë të lartë konvertimi që përfaqësojnë markën tuaj në mënyrë të përkryer.",
+        "graphicdesign-description": "Dizajn i Logove & Identitetit të Markës: Ne krijojmë logo unike dhe identitete të markës që reflektojnë vlerat e biznesit tuaj dhe lidhen me audiencën tuaj. Nga ngjyrat te tipografia, dizajnet tona krijojnë një identitet vizual të qëndrueshëm dhe të dallueshëm në treg.",
+        "ecommerce-description": "Optimizimi i Faqeve të E-Commerce: Ne sigurojmë që dyqani juaj online të jetë plotësisht i optimizuar për konvertime. Nga navigimi intuitiv dhe dizajni miqësor për celularët, deri te kohët e shpejta të ngarkimit dhe proceset e thjeshta të blerjes, ne ndihmojmë në krijimin e një eksperience që shndërron vizitorët në blerës.",
+    
+        "statbox-header": "Maksimizimi i Potencialit të Markës Suaj",
+        "statbox-description": "Në <strong>Spark Marketing LLC</strong> ofrojmë zgjidhje ideale të marketingut të përshtatura për të optimizuar fushatat e reklamimit në shumë kanale për një efektivitet maksimal.",
+        "statbox-lmore": "Mëso Më Shumë",
+    
+        "statgrid-year": "Viti i themelimit",
+        "statgrid-clients": "Klientë të kënaqur",
+        "statgrid-projects": "Projekte të përfunduara",
+        "statgrid-team": "Anëtarë të ekipit",
+    
+        "results-header": "Pse të Zgjidhni Spark Marketing?",
+        "results-checkbox-1": "✔ Strategji të Bazuar në Rezultate – Ne përdorim të dhëna dhe analiza për të krijuar fushata me performancë të lartë.",
+        "results-checkbox-2": "✔ Zgjidhje të Personalizuara – Çdo biznes është unik, dhe ne përshtatim strategjitë tona sipas qëllimeve tuaja.",
+        "results-checkbox-3": "✔ Ekip me Eksperiencë – Një ekip pasionant i profesionistëve të marketingut digjital në shërbimin tuaj.",
+        "results-checkbox-4": "✔ Raportim Transparent – Ne ofrojmë informacione dhe raporte të qarta për të ndjekur progresin tuaj.",
+        "results-checkbox-5": "✔ Mjete të Avancuara – Ne përdorim mjetet dhe teknikat më të fundit të marketingut digjital.",
+    
+        "industries-served": "Industritë që Shërbejmë",
+        "industry-ecommerce": "E-Commerce & Shitje me Pakicë",
+        "industry-realestate": "Patundshmëri & Ndërtim",
+        "industries-tech": "Teknologji & SaaS",
+        "industries-education": "Arsim & Trajnime",
+    
+        "footer": "Copyright &copy; 2025 Spark Marketing. Të gjitha të drejtat e rezervuara."
+    }
+}
+  
