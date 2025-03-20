@@ -402,6 +402,12 @@ body {
     align-items: stretch;
 }
 
+.industry-grid-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
 
 .industries {
     width: 95vw;
@@ -428,6 +434,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0px;
+    align-items: center;
 }
 
 @media (max-width: 980px) {
