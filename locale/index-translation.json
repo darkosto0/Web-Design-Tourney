@@ -102,6 +102,8 @@
         "form-message": "Your message",
         "form-send": "Send",
 
+        "lmore-button": "Learn More",
+
         "footer": "Copyright &copy; 2025 Spark Marketing. All Rights Reserved."
     },
 
@@ -207,6 +209,8 @@
         "form-subject": "Предмет",
         "form-message": "Вашата порака",
         "form-send": "Испрати",        
+
+        "lmore-button": "Дознај Повеќе",
 
         "footer": "Авторски права &copy; 2025 Спарк Маркетинг. Сите права се задржани."
     },
@@ -314,7 +318,8 @@
         "form-message": "Mesazhi juaj",
         "form-send": "Dërgo",
 
+        "lmore-button": "Mësoni më shumë",
+
         "footer": "Copyright &copy; 2025 Spark Marketing. Të gjitha të drejtat e rezervuara."
     }
 }
-  
