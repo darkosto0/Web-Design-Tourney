@@ -345,6 +345,10 @@ body {
   text-align: center;
 }
 
+.results-checkbox-container {
+  text-align: start;
+}
+
 .industries-grid {
   display: inline-grid;
   grid-template-columns: repeat(4, 1fr);

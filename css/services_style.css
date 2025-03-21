@@ -391,13 +391,12 @@ body {
     margin-top: 30px;
 }
 
-.results-description p {
-    align-items: start;
-    text-align: left;
-}
-
 .results h2 {
     text-align: center;
+}
+
+.results-checkbox-container {
+    text-align: start;
 }
 
 .industries-grid {
@@ -439,7 +438,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0px;
-    align-items: center;
+    align-items: start;
 }
 
 @media (max-width: 980px) {
