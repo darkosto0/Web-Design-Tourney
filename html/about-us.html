@@ -15,26 +15,27 @@
     <header class="header">
         <div class="header-a">
             <img src="../assets/images/logo.png" alt="logo">
-            <a href="../index.html">Spark Marketing</a>
+            <a href="../index.html" data-translate="title">Spark Marketing</a>
         </div>
         <section class="nav-menu">
             <nav>
-                <a href="services.html">Services</a>
-                <a href="about-us.html">About Us</a>
-                <a href="contact.html">Contact</a>
+                <a href="services.html" data-translate="nav-service">Services</a>
+                <a href="about-us.html" data-translate="nav-abt-us">About Us</a>
+                <a href="contact.html" data-translate="nav-contact">Contact</a>
             </nav>
 
             <div class="separator"></div>
-            
+
             <div class="dropdown">
                 <i class="fas fa-globe language-select-icon" onclick="toggleDropdown()"></i>
                 <div class="dropdown-content">
-                  <a>EN</a>
-                  <a>MK</a>
-                  <a>AL</a>
+                    <a onclick="changeLanguage('en')">EN</a>
+                    <a onclick="changeLanguage('mk')">MK</a>
+                    <a onclick="changeLanguage('sq')">AL</a>
                 </div>
             </div>
             <script src="../js/language-toggle.js"></script>
+            <script src="../js/translation/language-json.js"></script>
         </section>
         <div class="hamburger" onclick="toggleMenu()">☰</div>
     </header>
@@ -81,35 +82,35 @@
 
     <div class="stat-box">
         <section class="stat-text">
-            <h1>Maximizing Your Brand's Potential</h1>
-            <p>In <strong>Spark Marketing LLC</strong> We provide ideal marketing solutions tailored to optimize multi-channel advertising campaigns for maximum effectiveness.</p>
-            <a class="lmore-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Learn More</a>
+            <h1 data-translate="statbox-header">Maximizing Your Brand's Potential</h1>
+            <p data-translate="statbox-description">In <strong>Spark Marketing LLC</strong> We provide ideal marketing solutions tailored to optimize multi-channel advertising campaigns for maximum effectiveness.</p>
+            <a class="lmore-button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" data-translate="statbox-lmore">Learn More</a>
         </section>
         <section class="stat-grid">
             <section class="grid-block">
                 <h2 id="stat-year">2017</h2>
-                <p>Year of establishment</p>
+                <p data-translate="statgrid-year">Year of establishment</p>
             </section>
             <section class="grid-block">
                 <h2 id="stat-clients">754</h2>
-                <p>Satisfied clients</p>
+                <p data-translate="statgrid-clients">Satisfied clients</p>
             </section>
             <section class="grid-block">
                 <h2 id="stat-projects">120</h2>
-                <p>Finished projects</p>
+                <p data-translate="statgrid-projects">Finished projects</p>
             </section>
             <section class="grid-block">
                 <h2 id="stat-team">4</h2>
-                <p>Team members</p>
+                <p data-translate="statgrid-team">Team members</p>
             </section>
         </section>
     </div>
 
-    <script src="../js/script.js"></script> <!--you only need to do ../ WHEN you want to go UP A LEVEL in a directory, do NOT use it if you are in the root, like index.html is-->
+    <script src="../js/script.js"></script>
 
-     <!--results section-->
+    <!--results section-->
 
-     <div class="results">
+    <div class="results">
         <section>
             <h2 data-translate="results-header">Why Choose Spark Marketing?</h2>
             <p data-translate="results-checkbox-1">✔ Results-Driven Strategies – We use data and analytics to create high-performing campaigns.</p>
@@ -149,34 +150,32 @@
         <div class="iframe-company-details">
             <section class="company-header">
                 <img src="../assets/images/logo.png" alt="logo">
-                <p>Spark Marketing</p>
+                <p data-translate="title">Spark Marketing</p>
             </section>
             <section class="company-details">
                 <h3><strong>Spark Marketing LTD</strong></h3>
                 <h5>Shishka BB, Kavadarci 1430</h5>
                 <h3><strong>info@sparkmarketing.com</strong></h3>
-                <h3><strong>053/152-552</strong></h3>            
+                <h3><strong>053 152 552</strong></h3>            
             </section>
         </div>
-        <iframe 
-            width="600" 
-            height="300" 
-            style="border:0;" 
-            loading="lazy" 
-            allowfullscreen 
-            referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps?q=41.4414315181446,22.020029425621036&hl=es;z=14&output=embed">
-        </iframe>
+        <div class="iframe-container">
+            <iframe 
+                width="600" 
+                height="300" 
+                style="border:0;" 
+                loading="lazy" 
+                allowfullscreen 
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=41.4414315181446,22.020029425621036&hl=es;z=14&output=embed">
+            </iframe>
+        </div>
     </div>
 
     <!--footer-->
 
     <footer>
-        <h5>Copyright &copy; 2025 Spark Marketing. All Rights Reserved.</h5>
-        <section class="policy-links">
-            <a href="#">Terms of Service</a>
-            <a href="#">Privacy Policy</a>
-        </section>
+        <h5 data-translate="footer">Copyright &copy; 2025 Spark Marketing. All Rights Reserved.</h5>
     </footer>
     <br>
 </body>
