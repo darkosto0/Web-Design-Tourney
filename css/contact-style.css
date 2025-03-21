@@ -205,7 +205,7 @@ body {
 .company-logo {
     display: flex;
     flex-direction: row;
-    max-width: 300px;
+    width: 310px;
     gap: 10px;
     font-size: 26px;
     font-weight: bolder;

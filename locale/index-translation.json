@@ -87,6 +87,21 @@
         "contact-email": "Email: info@sparkmarketing.com",
         "contact-phone": "Phone: 053/152-552",
 
+        "bigtext-contact": "Contact Us",
+        "bigtext-description": "For more information, contact us. We answer any and all questions.",
+
+        "form-text-contact": "Step in contact",
+        "form-text-request": "Send a Request",
+        "form-text-text1": "How can we help you? Feel free to ask us questions that interest you, because we will answer every one of them with pleasure.",
+        "form-text-text2": "Call us on 053/152-552, write to us on our e-mail at <strong>info@sparkmarketing.com</strong> or send a request through the form for contact below.",
+        "form-text-thankyou": "Thank you!",
+
+        "form-name": "Your name",
+        "form-email": "Your e-mail",
+        "form-subject": "Subject",
+        "form-message": "Your message",
+        "form-send": "Send",
+
         "footer": "Copyright &copy; 2025 Spark Marketing. All Rights Reserved."
     },
 
@@ -178,6 +193,21 @@
         "contact-email": "Е-пошта: info@sparkmarketing.com",
         "contact-phone": "Телефон: 053/152-552",
                 
+        "bigtext-contact": "Контактирајте не",
+        "bigtext-description": "За повеќе информации, контактирајте не. Одговараме на сите ваши прашања.",
+        
+        "form-text-contact": "Остварете контакт",
+        "form-text-request": "Испратете барање",
+        "form-text-text1": "Како можеме да ви помогнеме? Слободно поставете ни прашања кои ве интересираат, затоа што со задоволство ќе одговориме на секое од нив.",
+        "form-text-text2": "Јавете ни се на 053/152-552, пишете ни на нашиот е-маил <strong>info@sparkmarketing.com</strong> или испратете барање преку контакт формуларот подолу.",
+        "form-text-thankyou": "Ви благодариме!",
+        
+        "form-name": "Вашето име",
+        "form-email": "Вашиот е-маил",
+        "form-subject": "Предмет",
+        "form-message": "Вашата порака",
+        "form-send": "Испрати",        
+
         "footer": "Авторски права &copy; 2025 Спарк Маркетинг. Сите права се задржани."
     },
 
@@ -268,6 +298,21 @@
         "contact-us": "Na kontaktoni",
         "contact-email": "Email: info@sparkmarketing.com",
         "contact-phone": "Telefon: 053/152-552",
+
+        "bigtext-contact": "Na Kontaktoni",
+        "bigtext-description": "Për më shumë informacion, na kontaktoni. Ne i përgjigjemi çdo pyetjeje.",
+
+        "form-text-contact": "Lidhu me ne",
+        "form-text-request": "Dërgo një Kërkesë",
+        "form-text-text1": "Si mund t'ju ndihmojmë? Mos hezitoni të na bëni pyetje që ju interesojnë, sepse ne do t'ju përgjigjemi me kënaqësi.",
+        "form-text-text2": "Na telefononi në 053/152-552, shkruani në emailin tonë <strong>info@sparkmarketing.com</strong> ose dërgoni një kërkesë përmes formularit të kontaktit më poshtë.",
+        "form-text-thankyou": "Faleminderit!",
+
+        "form-name": "Emri juaj",
+        "form-email": "Email-i juaj",
+        "form-subject": "Subjekti",
+        "form-message": "Mesazhi juaj",
+        "form-send": "Dërgo",
 
         "footer": "Copyright &copy; 2025 Spark Marketing. Të gjitha të drejtat e rezervuara."
     }
