@@ -626,13 +626,13 @@ body {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    width: 93%;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.39);
     padding: 10px;
     border-radius: 7px;
     margin-top: 50px;
-    max-width: 80vw;
+    max-width: 1200px;
+    width: 80vw;
 }
 
 .iframe-company-details {

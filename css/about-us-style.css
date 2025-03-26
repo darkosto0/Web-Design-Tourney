@@ -411,15 +411,15 @@ body {
   display: flex;
   font-family: Montserrat;
   flex-direction: row;
-  gap: 50px;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
-  max-width: fit-content;
   margin: auto;
   background-color: rgba(0, 0, 0, 0.39);
   padding: 10px;
   border-radius: 7px;
-  margin-top: 30px;
+  margin-top: 50px;
+  max-width: 1200px;
+  width: 80vw;
 }
 
 .iframe-company-details {
